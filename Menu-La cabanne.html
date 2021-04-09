@@ -2,76 +2,112 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="dart-sass/sass/stylecabane.scss">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
 	<title>Ohmyfood!</title>
 </head>
 
 <body>
+	<header>
+
+		<conteneur class="ohmyfood">
+			<a href="index.html" style="text-decoration:none" class="retour"><i class="fas fa-arrow-left"></i></a>
+			<img class="logo" src="contenu\image\ohmyfood.png" >
+		</conteneur>
+	</header>
 	<main>
-		<img src="contenu\image\la cabanne.jpg" w>
-
-		<h1>La cabanne</h1>
-
-			<div class="entrées">
-
-				<h2>Entrées</h2>
-
-				<h4>Oeuf parfait</h4>
-				<p>A la crème de betterave<span>10€</span></p>
-
-				<h4>toasts de chèvre et miel</h4>
-				<p>Et Vinaigrette mangue-citron vert<span>10€</span></p>
-
-				<h4>Verrine de poulet</h4>
-				<p>Sepoudré d'épices<span>15€</span></p>
-
-			</div>	
-
-			
-			<div class="plats">
-				<h2>PLATS</h2>
-
-				<h4>Côte de porc sauce au porto</h4>
-				<p>Avec ses pommes de terre Salardaises <span>20€</span></p>
-
-				<h4>Boeuf de sept heures</h4>
-				<p>Et écrasé de pomme de terre<span>25€</span></p>
-
-				<h4>Papillottes de lieu noir au vin blanc</h4>
-				<p>Accompagné de pomme de terres asperges et carottes <span>34€</span></p>
-
+		
+			<div class="child1">
+				<img src="contenu\image\la cabanne.jpg" class="imgmain">
 			</div>
 
+			<div class="child2"> 
+				<div class="nomresto"><h1>La cabanne</h1><i class="far fa-heart"></i></div>
+					<div class="entrées">
 
-			<div class="desserts">
+						<h2><span class="underline"> ENTR</span>EES</h2>
 
-				<h2>DESSERTS</h2>
+						<div class="ptn-entrees">
+							<h3>Oeuf parfait</h3>
+							<p>A la crème de betterave</p><span class="price">10€</span>
+						</div>
 
-				<h3>Crème brûlée au Carambar</h3>
-				<p>Et son coulis de framboise <span>8€</span></p>
+						<div class="ptn-entrees">
+							<h3>toasts de chèvre et miel</h3>
+							<p>Et Vinaigrette mangue-citron vert</p><span class="price">10€</span>
+						</div>
 
-				<h3>Nage de pêche et abricot</h3>
-				<p>Avec Espuma d'estragon <span>12€</span></p>
+						<div class="ptn-entrees">
+							<h3>Verrine de poulet</h3>
+							<p>Sepoudré d'épices</p><span class="price">15€</span>
+						</div>
 
-				<h3>Cornet garnis à la mousse au chocolat</h3>
-				<p>Avec ses éclats de spéculoos<span>13€</span></p>
+					</div>	
 
+					
+					<div class="plats">
+
+						<h2><span class="underline">PLAT</span>S</h2>
+
+							<div class="ptn-plats">
+								<h3>Côte de porc sauce au porto</h3>
+								<p>Avec ses pommes de terre Salardaises </p><span class="price"> 20€</span>
+							</div>
+
+							<div class="ptn-plats">
+								<h3>Boeuf de sept heures</h3>
+								<p>Et écrasé de pomme de terre</p><span class="price">25€</span>
+							</div>
+
+							<div class="ptn-plats">
+								<h3>Papillottes de lieu noir au vin blanc</h3>
+								<p>Accompagné de pomme de terres asperges et carottes </p><span class="price">34€</span>
+							</div>	
+
+					</div>
+
+
+					<div class="desserts">
+
+						<h2><span  class="underline">DESS</span>ERTS</h2>
+
+							<div class="ptn-desserts">
+								<h3>Crème brûlée au Carambar</h3>
+								<p>Et son coulis de framboise </p><span class="price">8€</span>
+							</div>
+
+							<div class="ptn-desserts">
+								<h3>Nage de pêche et abricot</h3>
+								<p>Avec Espuma d'estragon </p><span class="price">12€</span>
+							</div>
+
+							<div class="ptn-desserts">	
+								<h3>Cornet garnis à la mousse au chocolat</h3>
+								<p>Avec ses éclats de spéculoos</p><span class="price">13€</span>
+							</div>
+
+					</div>
+
+
+					
+		
 			</div>
-
-
-			<input class="commander" type="button" value="Commander">
-
+			<div class="main-button">
+				<input class="commander" type="button" value="Commander">
+			</div>
 	</main>
 
 
 	<footer>
 
-				<img class="Ohmyfood" src="contenu\image\ohmyfood.png" >
-				<p>Proser un restaurant</p>
-				<p>Devnir partenaire</p>
+				<img class="ohmyfoodnégatif" src="contenu\image\ohmyfoodnégatif.png" >
+				<p><i class="fas fa-utensils"></i>Proser un restaurant</p>
+				<p><i class="fas fa-hands-helping"></i>Devnir partenaire</p>
 				<p>Mentions légale</p>
 				<p>Contact</p>
 
-			</footer>
+	</footer>
 
 </body>
 </html>

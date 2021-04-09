@@ -126,15 +126,24 @@ h3{font-weight: lighter;}
     padding-bottom: 2%;
     border-radius: 25px;
     margin-top: 5%;
+    position: relative;
 }
 
 
-.price{ position: absolute;
+.price{ 
+    display: flex;
     margin-right: 5%;
     margin-left: 75%;
     margin-top: -10%;
     margin-bottom: auto;
         }
+
+        .fa-check-circle{
+            
+            background-color: #a6fdd7; 
+            color: white;
+            
+           }
 
 
 .commander{color: white ; 

@@ -4,7 +4,7 @@ body
     flex-direction: column;
     width: auto;
     height: auto;
-    padding: auto ;
+    padding: auto;
     margin-left:  0px;
     margin-right: 0px;
     margin-top: 0%;
@@ -41,12 +41,12 @@ body
 
 
 main{
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; 
  
     }
 
 
-
+    p{ font-weight: 20;}
 
     .child1{ position: relative;
         z-index: 1;
@@ -78,15 +78,14 @@ background-color: #f2f2f2;
 font-style: italic;}
 
 .nomresto{display: flex;
-    flex-direction: row;}
-    
-    .fa-heart{
-                margin-left: auto;
-                margin-right: 10%;
-                margin-top: auto;
-                margin-bottom: auto;
-          
-            }
+flex-direction: row;}
+.fa-heart{
+    margin-left: auto;
+            margin-right: 10%;
+            margin-top: auto;
+            margin-bottom: auto;
+      
+        }
 
 h2{font-weight: lighter;
     
@@ -94,7 +93,7 @@ h2{font-weight: lighter;
 
 .underline{text-decoration: underline #a6fdd7;}
 
-h3{font-weight: lighter;}
+h3{font-weight: normal;}
 
 
         
@@ -102,18 +101,19 @@ h3{font-weight: lighter;}
 .ptn-entrees{
             background-color: white;
             padding-left: 5%;
+            padding-right: 10%;
             padding-top: 1%;
             padding-bottom: 2%;
             border-radius: 25px;
             margin-top: 5%;
-            display: block;
+          
 
            
 }
 
 .ptn-plats{ background-color: white;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 10%;
     padding-top: 1%;
     padding-bottom: 2%;
     border-radius: 25px;
@@ -122,19 +122,27 @@ h3{font-weight: lighter;}
 }
 .ptn-desserts{ background-color: white;
     padding-left: 5%;
+    padding-right: 10%;
     padding-top: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     border-radius: 25px;
     margin-top: 5%;
+    line-height: auto;
+    
+    
 }
 
 
-.price{ position: absolute;
+.price{
+    text-align: right;
+    position: absolute;
     margin-right: 5%;
     margin-left: 75%;
     margin-top: -10%;
     margin-bottom: auto;
         }
+
+
 
 
 .commander{color: white ; 
@@ -149,7 +157,9 @@ h3{font-weight: lighter;}
     width: 14em;
     box-shadow: inset -10px -4px  10px #784cb6;
     font-weight: bold;
-    border: 1px solid #d560f8;}
+    border: 1px solid #d560f8;
+    }
+
 
 
 
