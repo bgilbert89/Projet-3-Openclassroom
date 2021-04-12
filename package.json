@@ -1,0 +1,19 @@
+{
+  "name": "projet-3-openclassroom",
+  "version": "1.0.0",
+  "description": "��P\u0000r\u0000o\u0000j\u0000e\u0000t\u0000-\u00003\u0000",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgilbert89/Projet-3-Openclassroom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgilbert89/Projet-3-Openclassroom/issues"
+  },
+  "homepage": "https://github.com/bgilbert89/Projet-3-Openclassroom#readme"
+}
