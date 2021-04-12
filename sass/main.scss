@@ -90,8 +90,11 @@ body
     font-weight: bold;
     justify-content: center;
     vertical-align: middle;
-    	&:hover {background-color: #f9edfd}
-	}
+	box-shadow: 3px 3px 5px #828282;
+
+
+    	&:hover {background-color: #f9edfd}}
+	
 		.composez {    position: relative;
 			background-color: #f2f2f2;
 			border-radius: 25px;
@@ -101,6 +104,7 @@ body
 			justify-content: center;
 			vertical-align: middle;
 			margin-top:  5%;
+			box-shadow: 3px 3px 5px #828282;
 			&:hover {background-color: #f9edfd}}	
 
 		.degustez {    position: relative;
@@ -112,6 +116,7 @@ body
 			justify-content: center;
 			vertical-align: middle;
 			margin-top: 5%;
+			box-shadow: 3px 3px 5px #828282;
 			&:hover {background-color: #f9edfd}
 		
 		}
@@ -148,7 +153,7 @@ body
 	.fa-heart{
 		position: absolute;
 		right: 5%;
-		bottom: 15%;
+		bottom: 13%;
   
 	}
 
@@ -265,7 +270,7 @@ body
      font-size: 30px !important;
     }
 .logo-secondary {
-	padding-top: 7%;
+	padding-top: 6%;
 				width: 45%;
 				height: 45%;
 				margin-left: 15%;
@@ -316,12 +321,11 @@ font-family: Shrikhand;}
     
    
 
-			#heart-secondary{
+			.nomresto .fa-heart{
+				position: absolute;
 				color: black;
-    display: flex;
-    margin-right: 0%;
-    width: 20%;
-    justify-content: center;
+				right: 2em;
+				top: 2.5em;
 				}
     
 
@@ -372,7 +376,7 @@ width: 80%;}
 
 .price{ 
 	position: absolute;
-    top: 50%;
+    top: 40%;
 	right: 5%;
         }
 
@@ -2751,6 +2755,9 @@ margin-top:5%;
 
 	}
 
+	.menu{display: flex; flex-direction: row;}
+	.entrées{margin-right: 5%;}
+	.plats{margin-right: 5%;}
 	.imgmain{
 	display: inline-block;
 	width: 100%;
