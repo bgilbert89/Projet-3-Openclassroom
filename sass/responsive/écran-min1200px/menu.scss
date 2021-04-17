@@ -1,0 +1,175 @@
+@media (min-width: 1200px) {
+
+    .ohmyfood-secondary {
+        display: flex;
+        flex-direction: row;
+        justify-content: center ;
+        height: 4em;
+        
+        
+        }
+        .retour{margin-left: -25%;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+        .fa-arrow-left{ color: black;
+        font-size: 30px !important;
+        }
+        .logo-secondary {
+        padding-top: 7%;
+                width: 45%;
+                height: 45%;
+                margin-left: 15%;
+        
+        }		
+        
+        
+        main{
+        background-color: #f2f2f2;
+        
+        }
+        
+        
+        
+        
+        .child1{ position: relative;
+        z-index: 1;
+        }
+        
+        .child2{position: relative;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        border-radius: 25px 25px 0 0;
+        opacity: 1;
+        background-color:#f2f2f2 ;
+        margin-top: -10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+        }
+        
+        .imgmain{
+        display: inline-block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        }
+        
+        h1{color:black;
+        font-weight: 400;
+        background-color: #f2f2f2;
+        font-style: italic;
+        font-family: Shrikhand;}
+        
+        .nomresto{display: flex;
+        flex-direction: row;}
+        
+        
+        
+            #heart-secondary{
+                color: black;
+        display: flex;
+        margin-right: 0%;
+        width: 20%;
+        justify-content: center;
+                }
+        
+        
+        
+        .underline{text-decoration: underline #a6fdd7;}
+        
+        h3{font-weight: bold;
+        width: 80%;}
+        .child2 p{width: 80%;}
+        
+        .entrées{ 
+            opacity: 0;
+         animation-duration: 2s;
+         animation-delay: 0.5s;
+         animation-name: apparition;
+         animation-fill-mode: forwards;
+     }
+     
+     
+     .plats{   
+       opacity: 0;
+         animation-duration: 2s;
+         animation-delay: 1s;
+         animation-name: apparition;
+         animation-fill-mode: forwards;
+     }
+     
+     .desserts{
+         opacity: 0;
+           animation-duration: 2s;
+         animation-delay: 1.5s;
+         animation-name: apparition;
+         animation-fill-mode: forwards;}
+        
+        
+        .ptn-entrees{
+        position: relative;
+            background-color: white;
+            padding-left: 5%;
+            padding-top: 1%;
+            padding-bottom: 2%;
+            border-radius: 25px;
+            margin-top: 5%;
+            display: block;
+        
+           
+        }
+        
+        .ptn-plats{ 
+        position: relative;
+        background-color: white;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+        border-radius: 25px;
+        margin-top: 5%;
+        display: block;
+        }
+        .ptn-desserts{ 
+        position: relative;
+        background-color: white;
+        padding-left: 5%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+        border-radius: 25px;
+        margin-top: 5%;
+        }
+        
+        
+        .price{ 
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        }
+        
+        
+        .commander{color: white ; 
+        background-color: #d560f8;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        border-radius: 25px;
+        height: 3em;
+        width: 14em;
+        box-shadow: inset -10px -4px  10px #784cb6;
+        font-weight: bold;
+        border: none;}
+        
+        .ohmyfoodnégatif{background-color: #535353;
+        width: 30%;
+        height: 10%;
+        margin-top:5%;
+        }
+        .fa-utensils{padding-right: 0.5em;}
+        .fa-hands-helping{padding-right: 0.5em;}
+        
+         }
