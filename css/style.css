@@ -3,6 +3,14 @@
 /*variables*/
 @-webkit-keyframes loading {
   0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes loading-opacity {
+  0% {
     opacity: 1;
   }
   100% {
@@ -44,9 +52,7 @@ body .loader {
   text-align: center;
   color: white;
   opacity: 1;
-  animation-duration: 1s;
-  animation-delay: 3s;
-  animation-name: loading;
+  animation: 1s 3s loading-opacity, 0.5s 3s loading;
   animation-fill-mode: forwards;
 }
 
@@ -61,7 +67,7 @@ body .loader {
   margin-left: -10%;
   border: 3px solid transparent;
   border-left-color: #99E2D0;
-  animation: spin 2s linear infinite;
+  animation: spin 1s linear infinite;
 }
 
 .circle:after {
@@ -75,7 +81,7 @@ body .loader {
   border-radius: 50px;
   border: 3px solid transparent;
   border-top-color: #FF79DA;
-  animation: spinreverse 3s linear infinite;
+  animation: spin 2s linear infinite;
 }
 
 .circle:before {
@@ -89,7 +95,7 @@ body .loader {
   border-radius: 50px;
   border: 3px solid transparent;
   border-top-color: #9356DC;
-  animation: spinreverse 6s linear infinite;
+  animation: spin 1s linear infinite;
 }
 
 .ohmyfoodindex {
