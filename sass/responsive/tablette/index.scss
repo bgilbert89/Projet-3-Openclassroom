@@ -144,11 +144,21 @@ bottom: 12%;
 
 }
 
-	
-	
 
-
-
+#coeurplein.fa-heart{background: -webkit-linear-gradient($colorprimary, $colorsecondary);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	position: absolute; 
+	top: 80%;
+	right: 5%;
+	opacity: 0;
+	&:hover{animation: apparition 1s;}
+}
+#coeurvide.fa-heart{color: black;
+position: absolute;
+top: 80%;
+right: 5%;} 
+		
 
 
 #listeresto {		
@@ -163,6 +173,7 @@ bottom: 12%;
 .lienresto{position: relative;
 width: 80%;
 height: auto;}
+
 
 legend{
 		position: absolute;

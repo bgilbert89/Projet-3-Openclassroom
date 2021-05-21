@@ -149,6 +149,48 @@
         right: 5%;
         }
         
+        .translate-check{
+            background-color: $colortertiary;
+            position:absolute;
+            top: 0;
+            height: 100%;
+            width: 8em;
+            margin-left: 20em;
+            
+                    }
+    
+        #check.fa-check{
+            margin-left: 1em;
+            border-radius: 25px;
+            height: 50px;
+            width: 50px;
+            color:$colortertiary;
+            background-color: white;
+            line-height: 1.5em; 
+            text-align: center;
+            position: absolute;
+            top: 30%;
+          
+        }            
+        
+        .price{ 
+        position: absolute;
+        right: 5%;
+        
+        }
+       .ptn-entrees:hover .price{animation: slide 1s;}
+       .ptn-entrees:hover .translate-check{animation: slide 1s;}
+       .ptn-entrees:hover #check{animation: rotation 1s; }
+    
+       .ptn-plats:hover .price{animation: slide 1s;}
+       .ptn-plats:hover .translate-check{animation: slide 1s;}
+       .ptn-plats:hover #check{animation: rotation 1s; }
+    
+     
+       .ptn-desserts:hover .price{animation: slide 1s;}
+       .ptn-desserts:hover .translate-check{animation: slide 1s;}
+       .ptn-desserts:hover #check{animation: rotation 1s; }
+    
         
         .commander{color: white ; 
         background-color: #d560f8;
@@ -160,14 +202,17 @@
         border-radius: 25px;
         height: 3em;
         width: 14em;
-        box-shadow: inset -10px -4px  10px #784cb6;
+        background:linear-gradient(175deg,$colorsecondary,$colorprimary);
+        box-shadow: 0px 4px  10px grey;
         font-weight: bold;
-        border: none;}
+        border: none;
+        &:hover{box-shadow: 0px 4px  10px black; filter: brightness(1.10);}
+    }
         
         .ohmyfoodnégatif{background-color: #535353;
-        width: 30%;
+        width: 13%;
         height: 10%;
-        margin-top:5%;
+        margin-top:2%;
         }
         .fa-utensils{padding-right: 0.5em;}
         .fa-hands-helping{padding-right: 0.5em;}
