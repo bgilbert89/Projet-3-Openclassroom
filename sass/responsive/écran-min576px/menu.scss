@@ -95,24 +95,30 @@
     font-weight: 400;
     background-color: #f2f2f2;
     font-style: italic;
-    font-family: Shrikhand;
-        &:hover{color: lightblue;}
-
-
-}
+    font-family: Shrikhand;}
     
     .nomresto{display: flex;
     flex-direction: row;}
     
     
     
-        #heart-secondary{
-            color: black;
-    display: flex;
-    margin-right: 0%;
-    width: 20%;
-    justify-content: center;
-            }
+    #heartmenu.fa-heart{
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        color: black;
+}
+
+#heartmenutotal.fa-heart{  
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        background: -webkit-linear-gradient($colorprimary, $colorsecondary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 0;
+            &:hover{animation: apparition 1s;}        
+    }
     
     
     
@@ -242,16 +248,16 @@
     height: 3em;
     width: 14em;
     background:linear-gradient(175deg,$colorsecondary,$colorprimary);
-    box-shadow: 0px 4px  10px grey;
-    font-weight: bold;
-    border: none;
-    &:hover{box-shadow: 0px 4px  10px black; filter: brightness(1.10);}
-}
+        box-shadow: 0px 4px  10px grey;
+        font-weight: bold;
+        border: none;
+        &:hover{box-shadow: 0px 4px  10px black; filter: brightness(1.10);}
+    }
     
     .ohmyfoodnégatif{background-color: #535353;
-    width: 30%;
+    width: 13%;
     height: 10%;
-    margin-top:5%;
+    margin-top:2%;
     }
     .fa-utensils{padding-right: 0.5em;}
     .fa-hands-helping{padding-right: 0.5em;}

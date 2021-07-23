@@ -18,6 +18,11 @@
         0%{transform: rotate(0deg);}
         100%{transform: rotate(-360deg);}
     }
+
+    @keyframes apparition {
+        0%  {opacity:0;}
+        100% {opacity:1;}
+     }
     
     body 
                 {   
@@ -226,7 +231,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             position: absolute; 
-            top: 80%;
+            top: 83%;
             right: 5%;
             opacity: 0;
             &:hover{animation: apparition 1s;}
@@ -235,7 +240,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         position: absolute;
-    top: 80%;
+    top: 83%;
     right: 5%;} 
                 
                 

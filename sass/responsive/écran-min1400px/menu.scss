@@ -69,13 +69,23 @@
         
         
         
-            #heart-secondary{
-                color: black;
-        display: flex;
-        margin-right: 0%;
-        width: 20%;
-        justify-content: center;
-                }
+        #heartmenu.fa-heart{
+            position: absolute;
+            top: 1em;
+            right: 1em;
+            color: black;
+}
+
+#heartmenutotal.fa-heart{  
+            position: absolute;
+            top: 1em;
+            right: 1em;
+            background: -webkit-linear-gradient($colorprimary, $colorsecondary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity: 0;
+                &:hover{animation: apparition 1s;}        
+        }
         
         
         

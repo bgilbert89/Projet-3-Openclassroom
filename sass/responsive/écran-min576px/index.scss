@@ -1,23 +1,28 @@
 @media (min-width: 576px){
 
-@-webkit-keyframes loading  {
-    0%  {visibility:visible;}
-    100% {visibility:hidden;}
-	
- }
- @-webkit-keyframes loading-opacity { 
-	 0%{opacity: 1;}
-	 100%{opacity: 0;}
- }
+	@-webkit-keyframes loading  {
+        0%  {visibility:visible;}
+        100% {visibility:hidden;}
+        
+     }
+     @-webkit-keyframes loading-opacity { 
+         0%{opacity: 1;}
+         100%{opacity: 0;}
+     }
+    
+     @keyframes spin{
+         0%{transform: rotate(0deg);}
+         100%{transform: rotate(360deg);}
+     }
+     @keyframes spinreverse{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(-360deg);}
+    }
 
- @keyframes spin{
-	 0%{transform: rotate(0deg);}
-	 100%{transform: rotate(360deg);}
- }
- @keyframes spinreverse{
-	0%{transform: rotate(0deg);}
-	100%{transform: rotate(-360deg);}
-}
+    @keyframes apparition {
+        0%  {opacity:0;}
+        100% {opacity:1;}
+     }
 
 body 
 			{   
@@ -38,7 +43,7 @@ body .loader{
     height: 100%;
     width: 100%;
     z-index: 2;
-    padding-top: 95%;
+    padding-top: 55%;
     text-align: center;
     color: white;
 	opacity: 1;
@@ -102,7 +107,7 @@ body .loader{
 					}
 
 			.logo {		    
-				padding-top: 6%;
+				padding-top: 4%;
 				width: 45%;
 				height: 45%;
 						}		
@@ -134,14 +139,15 @@ body .loader{
 			margin-right: 15%;}
 				
 				
-		.nav-button{color: white ; 
-					background-color: #d560f8;
-					align-items: center;
-					border-radius: 25px;
-					height: 3em;
-					width: 14em;
-					box-shadow: inset -10px -4px  10px #784cb6;
-					border: none;
+		.nav-button{
+			color: white ; 
+			background:linear-gradient(175deg,$colorsecondary,$colorprimary);
+			align-items: center;
+			border-radius: 25px;
+			height: 3em;
+			width: 14em;
+			box-shadow: 0px 4px  10px grey;
+			border: none;
 
 				}
 
@@ -208,15 +214,15 @@ body .loader{
 
 		.fa-mobile-alt{         position: absolute;
 			width: 5%;
-			margin-top: 5%;
+			margin-top: 3%;
 			margin-left: 12%;}
 		.fa-bars{        position: absolute;
 			width: 5%;
-			margin-top: 5%;
+			margin-top: 3%;
 			margin-left: 12%;}
 		.fa-store{        position: absolute;
 			width: 5%;
-			margin-top: 5%;
+			margin-top: 3%;
 			margin-left: 12%;}
 
 	.txt-fonct{margin-left: 24%;}
@@ -226,14 +232,14 @@ body .loader{
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
         position: absolute; 
-		top: 80%;
+		top: 87%;
 		right: 5%;
 		opacity: 0;
         &:hover{animation: apparition 1s;}
     }
     #coeurvide.fa-heart{color: black;
     position: absolute;
-top: 80%;
+top: 87%;
 right: 5%;} 
 			
 

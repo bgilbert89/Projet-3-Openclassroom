@@ -104,6 +104,23 @@
         .nomresto{display: flex;
         flex-direction: row;}
         
+        #heartmenu.fa-heart{
+            position: absolute;
+            top: 1em;
+            right: 1em;
+            color: black;
+}
+
+#heartmenutotal.fa-heart{  
+            position: absolute;
+            top: 1em;
+            right: 1em;
+            background: -webkit-linear-gradient($colorprimary, $colorsecondary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity: 0;
+                &:hover{animation: apparition 1s;}        
+        }
         
         
          
