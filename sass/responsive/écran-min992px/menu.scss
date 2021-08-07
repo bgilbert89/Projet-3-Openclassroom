@@ -16,9 +16,9 @@
     font-size: 30px !important;
     }
     .logo-secondary {
-    padding-top: 7%;
+    padding-top: 1%;
             width: 45%;
-            height: 45%;
+            height: auto;
             margin-left: 15%;
     
     }		
@@ -165,7 +165,7 @@
         top: 0;
         height: 100%;
         width: 8em;
-        margin-left: 20em;
+        margin-left: 54em;
         
                 }
 
@@ -188,18 +188,18 @@
     right: 5%;
     
     }
-   .ptn-entrees:hover .price{animation: slide 1s;}
-   .ptn-entrees:hover .translate-check{animation: slide 1s;}
-   .ptn-entrees:hover #check{animation: rotation 1s; }
-
-   .ptn-plats:hover .price{animation: slide 1s;}
-   .ptn-plats:hover .translate-check{animation: slide 1s;}
-   .ptn-plats:hover #check{animation: rotation 1s; }
-
+    .ptn-entrees:hover .price{animation: slide 1s;  animation-fill-mode: forwards;}
+    .ptn-entrees:hover .translate-check{animation: slide 1s;  animation-fill-mode: forwards;}
+    .ptn-entrees:hover #check{animation: rotation 1s;  animation-fill-mode: forwards;}
  
-   .ptn-desserts:hover .price{animation: slide 1s;}
-   .ptn-desserts:hover .translate-check{animation: slide 1s;}
-   .ptn-desserts:hover #check{animation: rotation 1s; }
+    .ptn-plats:hover .price{animation: slide 1s;  animation-fill-mode: forwards;}
+    .ptn-plats:hover .translate-check{animation: slide 1s;  animation-fill-mode: forwards;}
+    .ptn-plats:hover #check{animation: rotation 1s; animation-fill-mode: forwards; }
+ 
+  
+    .ptn-desserts:hover .price{animation: slide 1s; animation-fill-mode: forwards;}
+    .ptn-desserts:hover .translate-check{animation: slide 1s; animation-fill-mode: forwards;}
+    .ptn-desserts:hover #check{animation: rotation 1s; animation-fill-mode: forwards; }
 
     
     .commander{color: white ; 

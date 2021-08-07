@@ -259,21 +259,29 @@ right: 5%;}
 #lapalette.lienresto{    
 	position: absolute;
 	left: 5%;
+	max-width: 500px;
+    width: auto;
 
 		}
 #lanote.lienresto{   
 	position: absolute;
     right: 9%;
+	max-width: 500px;
+    width: auto;
     }
 #française.lienresto{    position: absolute;
     top: 50%;
 	left: 5%;
+	max-width: 500px;
+    width: auto;
 
 }
 #délice.lienresto{
 	position: absolute;
     top: 50%;
-    right: 9%;}
+    right: 9%;
+	max-width: 500px;
+    width: auto;}
 
 
 legend{

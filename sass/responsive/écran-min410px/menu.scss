@@ -1,8 +1,41 @@
-@media (min-width: 1400px) 
- {
+@media (min-width: 410px){
 
-
-	.ohmyfood-secondary {
+    @keyframes apparition {
+        0%  {opacity:0;}
+        100% {opacity:1;}
+     }
+    @-moz-keyframes apparition  {
+        0%  {opacity:0;}
+        100% {opacity:1;}
+     }
+     @-webkit-keyframes apparition  {
+        0%  {opacity:0;}
+        100% {opacity:1;}
+     }
+     @-o-keyframes apparition  {
+        0%  {opacity:0;}
+        100% {opacity:1;}
+     }
+     @-webkit-keyframes loading-opacity { 
+        0%{opacity: 1;}
+        100%{opacity: 0;}
+    }
+    
+    @keyframes like {
+        0%  {opacity:0;}
+        100% {opacity:1;}
+     }
+    @-moz-keyframes like {
+        0%  {opacity:0;}
+        100% {opacity:1;}
+     }
+     @-webkit-keyframes like  {
+        0%  {opacity:0;}
+        100% {opacity:1;}
+     }
+    
+    
+     .ohmyfood-secondary {
         display: flex;
         flex-direction: row;
         justify-content: center ;
@@ -18,9 +51,9 @@
         font-size: 30px !important;
         }
         .logo-secondary {
-        padding-top: 1%;
-                width: 35%;
-                height: auto;
+        padding-top: 4%;
+                width: 45%;
+                height: 45%;
                 margin-left: 15%;
         
         }		
@@ -62,12 +95,14 @@
         font-weight: 400;
         background-color: #f2f2f2;
         font-style: italic;
-        font-family: Shrikhand;}
+        font-family: Shrikhand;
+            &:hover{color: lightblue;}
+    
+    
+    }
         
         .nomresto{display: flex;
         flex-direction: row;}
-        
-        
         
         #heartmenu.fa-heart{
             position: absolute;
@@ -88,12 +123,15 @@
         }
         
         
+         
+    
+        
         
         .underline{text-decoration: underline #a6fdd7;}
         
         h3{font-weight: bold;
         width: 80%;}
-        .child2 p{width: 80%;}
+        .child2 p{width: 60%;}
         
         .entrées{ 
             opacity: 0;
@@ -129,6 +167,8 @@
             border-radius: 25px;
             margin-top: 5%;
             display: block;
+            overflow: hidden;
+        text-overflow: ellipsis;
         
            
         }
@@ -157,7 +197,7 @@
         
         .price{ 
         position: absolute;
-        top: 50%;
+        top: 40%;
         right: 5%;
         }
         
@@ -167,7 +207,7 @@
             top: 0;
             height: 100%;
             width: 8em;
-            margin-left: 77em;
+            margin-left: 23em;
             
                     }
     
@@ -190,18 +230,18 @@
         right: 5%;
         
         }
-        .ptn-entrees:hover .price{animation: slide 1s;  animation-fill-mode: forwards;}
-        .ptn-entrees:hover .translate-check{animation: slide 1s;  animation-fill-mode: forwards;}
-        .ptn-entrees:hover #check{animation: rotation 1s;  animation-fill-mode: forwards;}
+       .ptn-entrees:hover .price{animation: slide 1s;  animation-fill-mode: forwards;}
+       .ptn-entrees:hover .translate-check{animation: slide 1s;  animation-fill-mode: forwards;}
+       .ptn-entrees:hover #check{animation: rotation 1s;  animation-fill-mode: forwards;}
+    
+       .ptn-plats:hover .price{animation: slide 1s;  animation-fill-mode: forwards;}
+       .ptn-plats:hover .translate-check{animation: slide 1s;  animation-fill-mode: forwards;}
+       .ptn-plats:hover #check{animation: rotation 1s; animation-fill-mode: forwards; }
+    
      
-        .ptn-plats:hover .price{animation: slide 1s;  animation-fill-mode: forwards;}
-        .ptn-plats:hover .translate-check{animation: slide 1s;  animation-fill-mode: forwards;}
-        .ptn-plats:hover #check{animation: rotation 1s; animation-fill-mode: forwards; }
-     
-      
-        .ptn-desserts:hover .price{animation: slide 1s; animation-fill-mode: forwards;}
-        .ptn-desserts:hover .translate-check{animation: slide 1s; animation-fill-mode: forwards;}
-        .ptn-desserts:hover #check{animation: rotation 1s; animation-fill-mode: forwards; }
+       .ptn-desserts:hover .price{animation: slide 1s; animation-fill-mode: forwards;}
+       .ptn-desserts:hover .translate-check{animation: slide 1s; animation-fill-mode: forwards;}
+       .ptn-desserts:hover #check{animation: rotation 1s; animation-fill-mode: forwards; }
     
         
         .commander{color: white ; 
@@ -219,14 +259,13 @@
         font-weight: bold;
         border: none;
         &:hover{box-shadow: 0px 4px  10px black; filter: brightness(1.10);}
-    }
+                }
         
         .ohmyfoodnégatif{background-color: #535353;
-        width: 10%;
+        width: 30%;
         height: 10%;
-        margin-top:1%;
+        margin-top:5%;
         }
         .fa-utensils{padding-right: 0.5em;}
         .fa-hands-helping{padding-right: 0.5em;}
-        
-         }
+    }
