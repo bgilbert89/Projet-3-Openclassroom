@@ -5675,16 +5675,14 @@ h3 {
   #heartmenu.fa-heart {
     position: absolute;
     top: 1em;
-    right: 15em;
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    right: 16em;
+    color: black;
   }
 
   #heartmenutotal.fa-heart {
     position: absolute;
     top: 1em;
-    right: 15em;
+    right: 16em;
     background: -webkit-linear-gradient(#9356DC, #FF79DA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -6343,16 +6341,14 @@ h3 {
   #heartmenu.fa-heart {
     position: absolute;
     top: 1em;
-    right: 15em;
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    right: 22em;
+    color: black;
   }
 
   #heartmenutotal.fa-heart {
     position: absolute;
     top: 1em;
-    right: 15em;
+    right: 22em;
     background: -webkit-linear-gradient(#9356DC, #FF79DA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

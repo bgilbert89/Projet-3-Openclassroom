@@ -75,22 +75,22 @@
 	#heartmenu.fa-heart{
 		position: absolute;
 		top: 1em;
-		right: 15em;
-		background: -webkit-linear-gradient($colorprimary, $colorsecondary);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
+		right: 16em;
+		color: black;
 }
 
 #heartmenutotal.fa-heart{  
 		position: absolute;
 		top: 1em;
-		right: 15em;
+		right: 16em;
 		background: -webkit-linear-gradient($colorprimary, $colorsecondary);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		opacity: 0;
 			&:hover{animation: apparition 1s;}        
 	}
+		   
+	
 
 
 
