@@ -74,18 +74,20 @@ to{transform: rotate(0deg);}
     
     
     }
-    .retour{margin-left: -25%;
-    margin-top: auto;
-    margin-bottom: auto;
+    .retour{
+   position: absolute;
+   left: 5%;
+   top: 3%;
     }
     .fa-arrow-left{ color: black;
     font-size: 30px !important;
     }
-    .logo-secondary {
-    padding-top: 4%;
-            width: 45%;
-            height: 45%;
-            margin-left: 15%;
+    .logo-secondary {	
+        position: relative;    
+            padding-top: 6%;
+            width: auto;
+            height: 40%;
+           
     
     }		
     
@@ -232,7 +234,7 @@ to{transform: rotate(0deg);}
         top: 0;
         height: 100%;
         width: 8em;
-        margin-left: 20em;
+        margin-left: 95%;
         animation: retourslide 1s; animation-fill-mode: forwards;
         
                 }
@@ -255,6 +257,7 @@ to{transform: rotate(0deg);}
     .price{ 
     position: absolute;
     right: 5%;
+    top: 40%;
     animation: retourslide 1s; animation-fill-mode: forwards;
 
     
@@ -309,10 +312,6 @@ to{transform: rotate(0deg);}
     &:hover{box-shadow: 0px 4px  10px black; filter: brightness(1.10);}
 }
     
-    .ohmyfoodnégatif{background-color: #535353;
-    width: 13%;
-    height: 10%;
-    margin-top:5%;
-    }
+    
     .fa-utensils{padding-right: 0.5em;}
     .fa-hands-helping{padding-right: 0.5em;}
