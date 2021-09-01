@@ -1922,258 +1922,47 @@ h3 {
   }
 }
 @media (min-width: 576px) {
-  @-webkit-keyframes loading {
-    0% {
-      visibility: visible;
-    }
-    100% {
-      visibility: hidden;
-    }
-  }
-  @-webkit-keyframes loading-opacity {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  @keyframes spinreverse {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(-360deg);
-    }
-  }
-  @keyframes apparition {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  body {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin: 0%;
-    font-family: Roboto;
-  }
-
   body .loader {
-    background-color: black;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    padding-top: 55%;
-    text-align: center;
-    color: white;
-    opacity: 1;
-    animation: 1s 3s loading-opacity, 0.5s 3s loading;
-    animation-fill-mode: forwards;
-  }
-
-  .circle {
-    position: relative;
-    display: inline-block;
-    border-radius: 50px;
-    height: 75px;
-    width: 75px;
-    vertical-align: middle;
-    margin-right: 10%;
-    margin-left: -10%;
-    border: 3px solid transparent;
-    border-left-color: #99E2D0;
-    animation: spin 1s linear infinite;
-  }
-
-  .circle:after {
-    content: "";
-    position: absolute;
-    top: 9px;
-    left: 9px;
-    width: 50px;
-    height: 50px;
-    border-top: 3px solid #FF79DA;
-    border-radius: 50px;
-    border: 3px solid transparent;
-    border-top-color: #FF79DA;
-    animation: spin 2s linear infinite;
-  }
-
-  .circle:before {
-    content: "";
-    position: absolute;
-    top: 22px;
-    left: 22px;
-    width: 25px;
-    height: 25px;
-    border-top: 3px solid #9356DC;
-    border-radius: 50px;
-    border: 3px solid transparent;
-    border-top-color: #9356DC;
-    animation: spin 1s linear infinite;
-  }
-
-  .ohmyfoodindex {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-    height: 4em;
-    box-shadow: 0px 2px 2px #828282;
+    padding-top: 65%;
   }
 
   .logo {
-    padding-top: 4%;
     width: 45%;
     height: 45%;
-  }
-
-  .box-loca {
-    display: flex;
-    background-color: #d9d9d9;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    vertical-align: middle;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .localisation {
-    display: flex;
-    text-align: center;
-    padding-left: 1em;
-  }
-
-  .fa-map-marker-alt {
-    display: flex;
-    padding-left: 1em;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-    background-color: #f2f2f2;
-    text-align: center;
-    padding-bottom: 10%;
-  }
-
-  h2 {
-    font-weight: bold;
-  }
-
-  .navdiv {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-
-  .nav-button {
-    color: white;
-    background: linear-gradient(175deg, #FF79DA, #9356DC);
-    align-items: center;
-    border-radius: 25px;
-    height: 3em;
-    width: 14em;
-    box-shadow: 0px 4px 10px grey;
-    border: none;
-  }
-
-  section {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-top: 4%;
   }
 
   .choisissez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
     padding-top: 1em;
     padding-bottom: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
-    box-shadow: 3px 3px 5px #828282;
-  }
-  .choisissez:hover {
-    background-color: #f9edfd;
   }
 
   .composez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
     padding-top: 1em;
     padding-bottom: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
-    margin-top: 5%;
-    box-shadow: 3px 3px 5px #828282;
-  }
-  .composez:hover {
-    background-color: #f9edfd;
   }
 
   .degustez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
     padding-top: 1em;
     padding-bottom: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
-    margin-top: 5%;
-    box-shadow: 3px 3px 5px #828282;
-  }
-  .degustez:hover {
-    background-color: #f9edfd;
   }
 
   .chiffre {
-    position: absolute;
-    background-color: #9356DC;
-    height: 2em;
-    width: 2em;
-    border-radius: 25px;
-    display: flex;
-    line-height: 2;
-    color: white;
-    justify-content: center;
     margin-left: -1em;
     margin-top: 0.5em;
   }
 
   .fa-mobile-alt {
-    position: absolute;
-    width: 5%;
     margin-top: 3%;
     margin-left: 12%;
   }
 
   .fa-bars {
-    position: absolute;
-    width: 5%;
     margin-top: 3%;
     margin-left: 12%;
   }
 
   .fa-store {
-    position: absolute;
-    width: 5%;
     margin-top: 3%;
     margin-left: 12%;
   }
@@ -2183,106 +1972,30 @@ h3 {
   }
 
   #coeurplein.fa-heart {
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 87%;
+    top: 88%;
     right: 5%;
-    opacity: 0;
-  }
-  #coeurplein.fa-heart:hover {
-    animation: apparition 1s;
   }
 
   #coeurvide.fa-heart {
-    color: black;
-    position: absolute;
-    top: 87%;
-    right: 5%;
-  }
-
-  .fa-heart {
-    position: absolute;
-    right: 5%;
-    top: 85%;
-  }
-
-  #listeresto {
-    display: flex;
-    flex-direction: column;
-    background-color: #f2f2f2;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 10%;
-  }
-
-  .lienresto {
-    position: relative;
-  }
-
-  legend {
-    position: absolute;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 2%;
-    background-color: #a6fdd7;
-    color: #037745;
-    font-weight: bold;
-    border-radius: 3px;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    top: 5%;
+    top: 88%;
     right: 5%;
   }
 
   .imgresto {
-    display: flex;
     width: 100%;
     max-width: 100%;
     height: auto;
-    border-radius: 25px 25px 0px 0px;
-    z-index: 1;
-  }
-
-  .ptn-resto {
-    margin-top: -0.25em;
-    background-color: white;
-    border-radius: 0 0 25px 25px;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    color: black;
-    display: flex;
-    flex-direction: column;
-  }
-
-  span {
-    font-weight: bold;
   }
 
   footer {
-    color: white;
-    background-color: #535353;
     padding-left: 1em;
     margin-bottom: 0px;
   }
 
   .ohmyfoodnégatif {
-    background-color: #535353;
     width: 30%;
     height: 10%;
     margin-top: 5%;
-  }
-
-  .fa-utensils {
-    padding-right: 0.5em;
-  }
-
-  .fa-hands-helping {
-    padding-right: 0.5;
   }
 }
 @media (min-width: 576px) {
@@ -2653,86 +2366,21 @@ h3 {
       opacity: 1;
     }
   }
-  body {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin: 0%;
-    font-family: Roboto;
-    font-size: 16px;
-  }
-
   body .loader {
-    background-color: black;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    padding-top: 55%;
-    text-align: center;
-    color: white;
-    opacity: 1;
-    animation: 1s 3s loading-opacity, 0.5s 3s loading;
-    animation-fill-mode: forwards;
-  }
-
-  .circle {
-    position: relative;
-    display: inline-block;
-    border-radius: 50px;
-    height: 75px;
-    width: 75px;
-    vertical-align: middle;
-    margin-right: 10%;
-    margin-left: -10%;
-    border: 3px solid transparent;
-    border-left-color: #99E2D0;
-    animation: spin 1s linear infinite;
+    padding-top: 50%;
   }
 
   .ohmyfoodindex {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-    height: 7em;
-    box-shadow: 0px 2px 5px #828282;
+    height: 5em;
   }
 
   .logo {
-    padding-top: 6%;
-    width: 28%;
+    padding-top: 3%;
+    width: auto;
     height: 40%;
   }
 
-  .box-loca {
-    display: flex;
-    background-color: #d9d9d9;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    vertical-align: middle;
-    align-items: center;
-    justify-content: center;
-    height: 4em;
-  }
-
-  .localisation {
-    display: flex;
-    text-align: center;
-    padding-left: 1em;
-  }
-
-  .fa-map-marker-alt {
-    display: flex;
-    padding-left: 1em;
-  }
-
   nav {
-    display: flex;
-    flex-direction: column;
-    background-color: #f2f2f2;
-    text-align: center;
     padding-bottom: 3%;
   }
 
@@ -2742,23 +2390,6 @@ h3 {
     padding: 0;
   }
 
-  .navdiv {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0%;
-  }
-
-  .nav-button {
-    color: white;
-    background: linear-gradient(175deg, #FF79DA, #9356DC);
-    align-items: center;
-    border-radius: 25px;
-    height: 3em;
-    width: 14em;
-    box-shadow: 0px 4px 10px grey;
-    border: none;
-  }
-
   .fonctionnement {
     display: flex;
     flex-direction: row;
@@ -2766,15 +2397,6 @@ h3 {
   }
 
   .choisissez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     width: 20em;
@@ -2784,15 +2406,6 @@ h3 {
   }
 
   .composez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 2em;
@@ -2803,15 +2416,6 @@ h3 {
   }
 
   .degustez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 2em;
@@ -2822,36 +2426,21 @@ h3 {
   }
 
   .chiffre {
-    position: absolute;
-    background-color: #9356DC;
-    height: 2em;
-    width: 2em;
-    border-radius: 25px;
-    display: flex;
-    line-height: 2;
-    color: white;
-    justify-content: center;
     margin-left: -1em;
     margin-top: 1em;
   }
 
   .fa-mobile-alt {
-    position: absolute;
-    width: 5%;
     margin-top: 12.5%;
     margin-left: 18%;
   }
 
   .fa-bars {
-    position: absolute;
-    width: 5%;
     margin-top: 12.5%;
     margin-left: 18%;
   }
 
   .fa-store {
-    position: absolute;
-    width: 5%;
     margin-top: 12.5%;
     margin-left: 18%;
   }
@@ -2861,10 +2450,6 @@ h3 {
   }
 
   #coeurplein.fa-heart {
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: absolute;
     top: 60%;
     right: 5%;
     opacity: 0;
@@ -2925,67 +2510,8 @@ h3 {
   }
 
   legend {
-    position: absolute;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 2%;
-    background-color: #a6fdd7;
-    color: #037745;
-    font-weight: bold;
-    border-radius: 3px;
-    width: auto;
-    max-width: 100%;
-    height: auto;
     top: 8%;
     right: 5%;
-  }
-
-  .imgresto {
-    display: flex;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 25px 25px 0px 0px;
-    z-index: 1;
-  }
-
-  .ptn-resto {
-    margin-top: -0.25em;
-    background-color: white;
-    border-radius: 0 0 25px 25px;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    color: black;
-    display: flex;
-    flex-direction: column;
-  }
-
-  span {
-    font-weight: bold;
-  }
-
-  footer {
-    color: white;
-    background-color: #535353;
-    padding-left: 1em;
-    margin-bottom: 0px;
-  }
-
-  .ohmyfoodnégatif {
-    background-color: #535353;
-    width: 13%;
-    height: 10%;
-    margin-top: 2%;
-  }
-
-  .fa-utensils {
-    padding-right: 0.5em;
-  }
-
-  .fa-hands-helping {
-    padding-right: 0.5em;
   }
 }
 @media (min-width: 768px) {
@@ -3301,79 +2827,18 @@ h3 {
       opacity: 1;
     }
   }
-  body {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin: 0%;
-    font-family: Roboto;
-    font-size: 16px;
-  }
-
   body .loader {
-    background-color: black;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    padding-top: 30%;
-    text-align: center;
-    color: white;
-    opacity: 1;
-    animation: 1s 3s loading-opacity, 0.5s 3s loading;
-    animation-fill-mode: forwards;
-  }
-
-  .circle {
-    position: relative;
-    display: inline-block;
-    border-radius: 50px;
-    height: 75px;
-    width: 75px;
-    vertical-align: middle;
-    margin-right: 10%;
-    margin-left: -10%;
-    border: 3px solid transparent;
-    border-left-color: #99E2D0;
-    animation: spin 1s linear infinite;
+    padding-top: 35%;
   }
 
   .ohmyfoodindex {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-    height: 7em;
-    box-shadow: 0px 2px 5px #828282;
+    height: 6em;
   }
 
   .logo {
-    padding-top: 4%;
-    width: 34%;
-    height: 40%;
-  }
-
-  .box-loca {
-    display: flex;
-    background-color: #d9d9d9;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    vertical-align: middle;
-    align-items: center;
-    justify-content: center;
-    height: 4em;
-  }
-
-  .localisation {
-    display: flex;
-    text-align: center;
-    padding-left: 1em;
-  }
-
-  .fa-map-marker-alt {
-    display: flex;
-    padding-left: 1em;
+    padding-top: 3%;
+    width: auto;
+    height: 45%;
   }
 
   nav {
@@ -3390,23 +2855,6 @@ h3 {
     padding: 0;
   }
 
-  .navdiv {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0%;
-  }
-
-  .nav-button {
-    color: white;
-    background: linear-gradient(175deg, #FF79DA, #9356DC);
-    align-items: center;
-    border-radius: 25px;
-    height: 3em;
-    width: 14em;
-    box-shadow: 0px 4px 10px grey;
-    border: none;
-  }
-
   .fonctionnement {
     display: flex;
     flex-direction: row;
@@ -3414,15 +2862,6 @@ h3 {
   }
 
   .choisissez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     width: 20em;
@@ -3432,15 +2871,6 @@ h3 {
   }
 
   .composez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 2em;
@@ -3451,15 +2881,6 @@ h3 {
   }
 
   .degustez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 2em;
@@ -3469,37 +2890,17 @@ h3 {
     background-color: #f9edfd;
   }
 
-  .chiffre {
-    position: absolute;
-    background-color: #9356DC;
-    height: 2em;
-    width: 2em;
-    border-radius: 25px;
-    display: flex;
-    line-height: 2;
-    color: white;
-    justify-content: center;
-    margin-left: -1em;
-    margin-top: 0.5em;
-  }
-
   .fa-mobile-alt {
-    position: absolute;
-    width: 5%;
     margin-top: 6%;
     margin-left: 18%;
   }
 
   .fa-bars {
-    position: absolute;
-    width: 5%;
     margin-top: 6%;
     margin-left: 18%;
   }
 
   .fa-store {
-    position: absolute;
-    width: 5%;
     margin-top: 6%;
     margin-left: 18%;
   }
@@ -3509,10 +2910,6 @@ h3 {
   }
 
   #coeurplein.fa-heart {
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: absolute;
     top: 63%;
     right: 5%;
     opacity: 0;
@@ -3522,8 +2919,6 @@ h3 {
   }
 
   #coeurvide.fa-heart {
-    color: black;
-    position: absolute;
     top: 63%;
     right: 5%;
   }
@@ -3554,86 +2949,35 @@ h3 {
 
   #lapalette.lienresto {
     position: absolute;
+    max-width: 300px;
+    width: auto;
   }
 
   #lanote.lienresto {
     position: absolute;
     right: 7%;
+    max-width: 300px;
+    width: auto;
   }
 
   #française.lienresto {
     position: absolute;
     top: 48%;
+    max-width: 300px;
+    width: auto;
   }
 
   #délice.lienresto {
     position: absolute;
     top: 48%;
     right: 7%;
+    max-width: 300px;
+    width: auto;
   }
 
   legend {
-    position: absolute;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 2%;
-    background-color: #a6fdd7;
-    color: #037745;
-    font-weight: bold;
-    border-radius: 3px;
-    width: auto;
-    max-width: 100%;
-    height: auto;
     top: 8%;
     right: 5%;
-  }
-
-  .imgresto {
-    display: flex;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 25px 25px 0px 0px;
-    z-index: 1;
-  }
-
-  .ptn-resto {
-    margin-top: -0.25em;
-    background-color: white;
-    border-radius: 0 0 25px 25px;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    color: black;
-    display: flex;
-    flex-direction: column;
-  }
-
-  span {
-    font-weight: bold;
-  }
-
-  footer {
-    color: white;
-    background-color: #535353;
-    padding-left: 1em;
-    margin-bottom: 0px;
-  }
-
-  .ohmyfoodnégatif {
-    background-color: #535353;
-    width: 13%;
-    height: 10%;
-    margin-top: 2%;
-  }
-
-  .fa-utensils {
-    padding-right: 0.5em;
-  }
-
-  .fa-hands-helping {
-    padding-right: 0.5em;
   }
 }
 @media (min-width: 992px) {
@@ -3949,79 +3293,18 @@ h3 {
       opacity: 1;
     }
   }
-  body {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin: 0%;
-    font-family: Roboto;
-    font-size: 16px;
-  }
-
   body .loader {
-    background-color: black;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    padding-top: 25%;
-    text-align: center;
-    color: white;
-    opacity: 1;
-    animation: 1s 3s loading-opacity, 0.5s 3s loading;
-    animation-fill-mode: forwards;
-  }
-
-  .circle {
-    position: relative;
-    display: inline-block;
-    border-radius: 50px;
-    height: 75px;
-    width: 75px;
-    vertical-align: middle;
-    margin-right: 10%;
-    margin-left: -10%;
-    border: 3px solid transparent;
-    border-left-color: #99E2D0;
-    animation: spin 1s linear infinite;
+    padding-top: 30%;
   }
 
   .ohmyfoodindex {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
     height: 7em;
-    box-shadow: 0px 2px 5px #828282;
   }
 
   .logo {
-    padding-top: 4%;
-    width: 34%;
+    padding-top: 3%;
+    width: auto;
     height: 40%;
-  }
-
-  .box-loca {
-    display: flex;
-    background-color: #d9d9d9;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    vertical-align: middle;
-    align-items: center;
-    justify-content: center;
-    height: 4em;
-  }
-
-  .localisation {
-    display: flex;
-    text-align: center;
-    padding-left: 1em;
-  }
-
-  .fa-map-marker-alt {
-    display: flex;
-    padding-left: 1em;
   }
 
   nav {
@@ -4038,23 +3321,6 @@ h3 {
     padding: 0;
   }
 
-  .navdiv {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0%;
-  }
-
-  .nav-button {
-    color: white;
-    background: linear-gradient(175deg, #FF79DA, #9356DC);
-    align-items: center;
-    border-radius: 25px;
-    height: 3em;
-    width: 14em;
-    box-shadow: 0px 4px 10px grey;
-    border: none;
-  }
-
   .fonctionnement {
     display: flex;
     flex-direction: row;
@@ -4062,15 +3328,6 @@ h3 {
   }
 
   .choisissez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     width: 20em;
@@ -4080,15 +3337,6 @@ h3 {
   }
 
   .composez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 2em;
@@ -4099,15 +3347,6 @@ h3 {
   }
 
   .degustez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 2em;
@@ -4115,20 +3354,6 @@ h3 {
   }
   .degustez:hover {
     background-color: #f9edfd;
-  }
-
-  .chiffre {
-    position: absolute;
-    background-color: #9356DC;
-    height: 2em;
-    width: 2em;
-    border-radius: 25px;
-    display: flex;
-    line-height: 2;
-    color: white;
-    justify-content: center;
-    margin-left: -1em;
-    margin-top: 0.5em;
   }
 
   .fa-mobile-alt {
@@ -4157,10 +3382,6 @@ h3 {
   }
 
   #coeurplein.fa-heart {
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: absolute;
     top: 67%;
     right: 5%;
     opacity: 0;
@@ -4170,8 +3391,6 @@ h3 {
   }
 
   #coeurvide.fa-heart {
-    color: black;
-    position: absolute;
     top: 67%;
     right: 5%;
   }
@@ -4203,87 +3422,36 @@ h3 {
   #lapalette.lienresto {
     position: absolute;
     left: 7%;
+    max-width: 400px;
+    width: auto;
   }
 
   #lanote.lienresto {
     position: absolute;
     right: 11%;
+    max-width: 400px;
+    width: auto;
   }
 
   #française.lienresto {
     position: absolute;
     top: 46%;
     left: 7%;
+    max-width: 400px;
+    width: auto;
   }
 
   #délice.lienresto {
     position: absolute;
     top: 46%;
     right: 11%;
+    max-width: 400px;
+    width: auto;
   }
 
   legend {
-    position: absolute;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 2%;
-    background-color: #a6fdd7;
-    color: #037745;
-    font-weight: bold;
-    border-radius: 3px;
-    width: auto;
-    max-width: 100%;
-    height: auto;
     top: 8%;
     right: 5%;
-  }
-
-  .imgresto {
-    display: flex;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 25px 25px 0px 0px;
-    z-index: 1;
-  }
-
-  .ptn-resto {
-    margin-top: -0.25em;
-    background-color: white;
-    border-radius: 0 0 25px 25px;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    color: black;
-    display: flex;
-    flex-direction: column;
-  }
-
-  span {
-    font-weight: bold;
-  }
-
-  footer {
-    color: white;
-    background-color: #535353;
-    padding-left: 1em;
-    margin-bottom: 0px;
-  }
-
-  .ohmyfoodnégatif {
-    background-color: #535353;
-    width: 13%;
-    height: 10%;
-    margin-top: 2%;
-  }
-
-  .fa-utensils {
-    padding-right: 0.5em;
-  }
-
-  .fa-hands-helping {
-    padding-right: 0.5em;
   }
 }
 @media (min-width: 1200px) {
@@ -4599,79 +3767,18 @@ h3 {
       opacity: 1;
     }
   }
-  body {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin: 0%;
-    font-family: Roboto;
-    font-size: 16px;
-  }
-
   body .loader {
-    background-color: black;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
     padding-top: 25%;
-    text-align: center;
-    color: white;
-    opacity: 1;
-    animation: 1s 3s loading-opacity, 0.5s 3s loading;
-    animation-fill-mode: forwards;
-  }
-
-  .circle {
-    position: relative;
-    display: inline-block;
-    border-radius: 50px;
-    height: 75px;
-    width: 75px;
-    vertical-align: middle;
-    margin-right: 10%;
-    margin-left: -10%;
-    border: 3px solid transparent;
-    border-left-color: #99E2D0;
-    animation: spin 1s linear infinite;
   }
 
   .ohmyfoodindex {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-    height: 7em;
-    box-shadow: 0px 2px 5px #828282;
+    height: 8em;
   }
 
   .logo {
     padding-top: 3%;
-    width: 34%;
+    width: auto;
     height: 40%;
-  }
-
-  .box-loca {
-    display: flex;
-    background-color: #d9d9d9;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    vertical-align: middle;
-    align-items: center;
-    justify-content: center;
-    height: 4em;
-  }
-
-  .localisation {
-    display: flex;
-    text-align: center;
-    padding-left: 1em;
-  }
-
-  .fa-map-marker-alt {
-    display: flex;
-    padding-left: 1em;
   }
 
   nav {
@@ -4688,23 +3795,6 @@ h3 {
     padding: 0;
   }
 
-  .navdiv {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0%;
-  }
-
-  .nav-button {
-    color: white;
-    background: linear-gradient(175deg, #FF79DA, #9356DC);
-    align-items: center;
-    border-radius: 25px;
-    height: 3em;
-    width: 14em;
-    box-shadow: 0px 4px 10px grey;
-    border: none;
-  }
-
   .fonctionnement {
     display: flex;
     flex-direction: row;
@@ -4712,15 +3802,6 @@ h3 {
   }
 
   .choisissez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     width: 20em;
@@ -4730,15 +3811,6 @@ h3 {
   }
 
   .composez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 2em;
@@ -4749,15 +3821,6 @@ h3 {
   }
 
   .degustez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 2em;
@@ -4765,20 +3828,6 @@ h3 {
   }
   .degustez:hover {
     background-color: #f9edfd;
-  }
-
-  .chiffre {
-    position: absolute;
-    background-color: #9356DC;
-    height: 2em;
-    width: 2em;
-    border-radius: 25px;
-    display: flex;
-    line-height: 2;
-    color: white;
-    justify-content: center;
-    margin-left: -1em;
-    margin-top: 0.5em;
   }
 
   .fa-mobile-alt {
@@ -4807,11 +3856,7 @@ h3 {
   }
 
   #coeurplein.fa-heart {
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 70%;
+    top: 72%;
     right: 5%;
     opacity: 0;
   }
@@ -4820,9 +3865,7 @@ h3 {
   }
 
   #coeurvide.fa-heart {
-    color: black;
-    position: absolute;
-    top: 70%;
+    top: 72%;
     right: 5%;
   }
 
@@ -4837,7 +3880,7 @@ h3 {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 50em;
+    height: 60em;
     position: relative;
   }
 
@@ -4881,67 +3924,8 @@ h3 {
   }
 
   legend {
-    position: absolute;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 2%;
-    background-color: #a6fdd7;
-    color: #037745;
-    font-weight: bold;
-    border-radius: 3px;
-    width: auto;
-    max-width: 100%;
-    height: auto;
     top: 8%;
     right: 5%;
-  }
-
-  .imgresto {
-    display: flex;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 25px 25px 0px 0px;
-    z-index: 1;
-  }
-
-  .ptn-resto {
-    margin-top: -0.25em;
-    background-color: white;
-    border-radius: 0 0 25px 25px;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    color: black;
-    display: flex;
-    flex-direction: column;
-  }
-
-  span {
-    font-weight: bold;
-  }
-
-  footer {
-    color: white;
-    background-color: #535353;
-    padding-left: 1em;
-    margin-bottom: 0px;
-  }
-
-  .ohmyfoodnégatif {
-    background-color: #535353;
-    width: 13%;
-    height: 10%;
-    margin-top: 2%;
-  }
-
-  .fa-utensils {
-    padding-right: 0.5em;
-  }
-
-  .fa-hands-helping {
-    padding-right: 0.5em;
   }
 }
 @media (min-width: 1400px) {
@@ -5257,79 +4241,18 @@ h3 {
       opacity: 1;
     }
   }
-  body {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin: 0%;
-    font-family: Roboto;
-    font-size: 16px;
-  }
-
   body .loader {
-    background-color: black;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
     padding-top: 20%;
-    text-align: center;
-    color: white;
-    opacity: 1;
-    animation: 1s 3s loading-opacity, 0.5s 3s loading;
-    animation-fill-mode: forwards;
-  }
-
-  .circle {
-    position: relative;
-    display: inline-block;
-    border-radius: 50px;
-    height: 75px;
-    width: 75px;
-    vertical-align: middle;
-    margin-right: 10%;
-    margin-left: -10%;
-    border: 3px solid transparent;
-    border-left-color: #99E2D0;
-    animation: spin 1s linear infinite;
   }
 
   .ohmyfoodindex {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-    height: 7em;
-    box-shadow: 0px 2px 5px #828282;
+    height: 8em;
   }
 
   .logo {
     padding-top: 2%;
-    width: 30%;
+    width: auto;
     height: 40%;
-  }
-
-  .box-loca {
-    display: flex;
-    background-color: #d9d9d9;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    vertical-align: middle;
-    align-items: center;
-    justify-content: center;
-    height: 4em;
-  }
-
-  .localisation {
-    display: flex;
-    text-align: center;
-    padding-left: 1em;
-  }
-
-  .fa-map-marker-alt {
-    display: flex;
-    padding-left: 1em;
   }
 
   nav {
@@ -5346,23 +4269,6 @@ h3 {
     padding: 0;
   }
 
-  .navdiv {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0%;
-  }
-
-  .nav-button {
-    color: white;
-    background: linear-gradient(175deg, #FF79DA, #9356DC);
-    align-items: center;
-    border-radius: 25px;
-    height: 3em;
-    width: 14em;
-    box-shadow: 0px 4px 10px grey;
-    border: none;
-  }
-
   .fonctionnement {
     display: flex;
     flex-direction: row;
@@ -5370,15 +4276,6 @@ h3 {
   }
 
   .choisissez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     width: 20em;
@@ -5388,15 +4285,6 @@ h3 {
   }
 
   .composez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 2em;
@@ -5407,36 +4295,12 @@ h3 {
   }
 
   .degustez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
-    margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 2em;
     width: 20em;
   }
   .degustez:hover {
     background-color: #f9edfd;
-  }
-
-  .chiffre {
-    position: absolute;
-    background-color: #9356DC;
-    height: 2em;
-    width: 2em;
-    border-radius: 25px;
-    display: flex;
-    line-height: 2;
-    color: white;
-    justify-content: center;
-    margin-left: -1em;
-    margin-top: 0.5em;
   }
 
   .fa-mobile-alt {
@@ -5465,11 +4329,7 @@ h3 {
   }
 
   #coeurplein.fa-heart {
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 74%;
+    top: 72%;
     right: 5%;
     opacity: 0;
   }
@@ -5478,9 +4338,7 @@ h3 {
   }
 
   #coeurvide.fa-heart {
-    color: black;
-    position: absolute;
-    top: 74%;
+    top: 72%;
     right: 5%;
   }
 
@@ -5531,67 +4389,8 @@ h3 {
   }
 
   legend {
-    position: absolute;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 2%;
-    background-color: #a6fdd7;
-    color: #037745;
-    font-weight: bold;
-    border-radius: 3px;
-    width: auto;
-    max-width: 100%;
-    height: auto;
     top: 8%;
     right: 5%;
-  }
-
-  .imgresto {
-    display: flex;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 25px 25px 0px 0px;
-    z-index: 1;
-  }
-
-  .ptn-resto {
-    margin-top: -0.25em;
-    background-color: white;
-    border-radius: 0 0 25px 25px;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    color: black;
-    display: flex;
-    flex-direction: column;
-  }
-
-  span {
-    font-weight: bold;
-  }
-
-  footer {
-    color: white;
-    background-color: #535353;
-    padding-left: 1em;
-    margin-bottom: 0px;
-  }
-
-  .ohmyfoodnégatif {
-    background-color: #535353;
-    width: 13%;
-    height: 10%;
-    margin-top: 2%;
-  }
-
-  .fa-utensils {
-    padding-right: 0.5em;
-  }
-
-  .fa-hands-helping {
-    padding-right: 0.5em;
   }
 }
 @media (min-width: 1920px) {
@@ -5923,79 +4722,18 @@ h3 {
       opacity: 1;
     }
   }
-  body {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin: 0%;
-    font-family: Roboto;
-    font-size: 16px;
-  }
-
   body .loader {
-    background-color: black;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
     padding-top: 25%;
-    text-align: center;
-    color: white;
-    opacity: 1;
-    animation: 1s 3s loading-opacity, 0.5s 3s loading;
-    animation-fill-mode: forwards;
-  }
-
-  .circle {
-    position: relative;
-    display: inline-block;
-    border-radius: 50px;
-    height: 75px;
-    width: 75px;
-    vertical-align: middle;
-    margin-right: 10%;
-    margin-left: -10%;
-    border: 3px solid transparent;
-    border-left-color: #99E2D0;
-    animation: spin 1s linear infinite;
   }
 
   .ohmyfoodindex {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
     height: 7em;
-    box-shadow: 0px 2px 5px #828282;
   }
 
   .logo {
     padding-top: 2%;
     width: 15%;
     height: 40%;
-  }
-
-  .box-loca {
-    display: flex;
-    background-color: #d9d9d9;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    vertical-align: middle;
-    align-items: center;
-    justify-content: center;
-    height: 4em;
-  }
-
-  .localisation {
-    display: flex;
-    text-align: center;
-    padding-left: 1em;
-  }
-
-  .fa-map-marker-alt {
-    display: flex;
-    padding-left: 1em;
   }
 
   nav {
@@ -6012,23 +4750,6 @@ h3 {
     padding: 0;
   }
 
-  .navdiv {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0%;
-  }
-
-  .nav-button {
-    color: white;
-    background: linear-gradient(175deg, #FF79DA, #9356DC);
-    align-items: center;
-    border-radius: 25px;
-    height: 3em;
-    width: 14em;
-    box-shadow: 0px 4px 10px grey;
-    border: none;
-  }
-
   .fonctionnement {
     display: flex;
     flex-direction: row;
@@ -6036,15 +4757,6 @@ h3 {
   }
 
   .choisissez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     width: 20em;
@@ -6054,15 +4766,6 @@ h3 {
   }
 
   .composez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 2em;
@@ -6073,15 +4776,6 @@ h3 {
   }
 
   .degustez {
-    position: relative;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    font-weight: bold;
-    justify-content: center;
-    vertical-align: middle;
     margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 2em;
@@ -6091,38 +4785,24 @@ h3 {
     background-color: #f9edfd;
   }
 
-  .chiffre {
-    position: absolute;
-    background-color: #9356DC;
-    height: 2em;
-    width: 2em;
-    border-radius: 25px;
-    display: flex;
-    line-height: 2;
-    color: white;
-    justify-content: center;
-    margin-left: -1em;
-    margin-top: 0.5em;
-  }
-
   .fa-mobile-alt {
     position: absolute;
     width: 5%;
-    margin-top: 6%;
+    margin-top: 5%;
     margin-left: 18%;
   }
 
   .fa-bars {
     position: absolute;
     width: 5%;
-    margin-top: 6%;
+    margin-top: 5%;
     margin-left: 18%;
   }
 
   .fa-store {
     position: absolute;
     width: 5%;
-    margin-top: 6%;
+    margin-top: 5%;
     margin-left: 18%;
   }
 
@@ -6131,11 +4811,7 @@ h3 {
   }
 
   #coeurplein.fa-heart {
-    background: -webkit-linear-gradient(#9356DC, #FF79DA);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 74%;
+    top: 73%;
     right: 5%;
     opacity: 0;
   }
@@ -6144,9 +4820,7 @@ h3 {
   }
 
   #coeurvide.fa-heart {
-    color: black;
-    position: absolute;
-    top: 74%;
+    top: 73%;
     right: 5%;
   }
 
@@ -6176,24 +4850,24 @@ h3 {
 
   #lapalette.lienresto {
     position: absolute;
-    left: 11%;
+    left: 14%;
   }
 
   #lanote.lienresto {
     position: absolute;
-    right: 15%;
+    right: 18%;
   }
 
   #française.lienresto {
     position: absolute;
     top: 50%;
-    left: 11%;
+    left: 14%;
   }
 
   #délice.lienresto {
     position: absolute;
     top: 50%;
-    right: 15%;
+    right: 18%;
   }
 
   legend {
@@ -6211,53 +4885,6 @@ h3 {
     height: auto;
     top: 8%;
     right: 5%;
-  }
-
-  .imgresto {
-    display: flex;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 25px 25px 0px 0px;
-    z-index: 1;
-  }
-
-  .ptn-resto {
-    margin-top: -0.25em;
-    background-color: white;
-    border-radius: 0 0 25px 25px;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    color: black;
-    display: flex;
-    flex-direction: column;
-  }
-
-  span {
-    font-weight: bold;
-  }
-
-  footer {
-    color: white;
-    background-color: #535353;
-    padding-left: 1em;
-    margin-bottom: 0px;
-  }
-
-  .ohmyfoodnégatif {
-    background-color: #535353;
-    width: 13%;
-    height: 10%;
-    margin-top: 2%;
-  }
-
-  .fa-utensils {
-    padding-right: 0.5em;
-  }
-
-  .fa-hands-helping {
-    padding-right: 0.5em;
   }
 }
 @media (min-width: 2450px) {
