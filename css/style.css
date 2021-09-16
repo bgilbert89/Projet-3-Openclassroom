@@ -686,7 +686,7 @@ h3 {
   animation-fill-mode: forwards;
 }
 
-.ptn-entrees:hover #check {
+.ptn-entrees:hover .check {
   animation: rotation 1s;
   animation-fill-mode: forwards;
 }
@@ -717,7 +717,7 @@ h3 {
   animation-fill-mode: forwards;
 }
 
-.ptn-plats:hover #check {
+.ptn-plats:hover .check {
   animation: rotation 1s;
   animation-fill-mode: forwards;
 }
@@ -748,7 +748,7 @@ h3 {
   animation-fill-mode: forwards;
 }
 
-.ptn-desserts:hover #check {
+.ptn-desserts:hover .check {
   animation: rotation 1s;
   animation-fill-mode: forwards;
 }
