@@ -96,13 +96,13 @@ padding:0;
 .txt-fonct{margin-left: 36%;}
 
 
-#coeurplein.fa-heart{
+.coeurplein.fa-heart{
 	top: 67%;
 	right: 5%;
 	opacity: 0;
 	&:hover{animation: apparition 1s;}
 }
-#coeurvide.fa-heart{
+.coeurvide.fa-heart{
 top: 67%;
 right: 5%;} 
 		

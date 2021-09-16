@@ -224,7 +224,7 @@ body .loader{
 
 	.txt-fonct{margin-left: 24%;}
 
-	#coeurplein.fa-heart{background: -webkit-linear-gradient($colorprimary, $colorsecondary);
+	.coeurplein.fa-heart{background: -webkit-linear-gradient($colorprimary, $colorsecondary);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
         position: absolute; 
@@ -233,7 +233,7 @@ body .loader{
 		opacity: 0;
         &:hover{animation: apparition 1s;}
     }
-    #coeurvide.fa-heart{color: black;
+    .coeurvide.fa-heart{color: black;
     position: absolute;
 top: 83%;
 right: 5%;} 

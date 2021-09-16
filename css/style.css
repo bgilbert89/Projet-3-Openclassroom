@@ -255,7 +255,7 @@ section {
   margin-left: 24%;
 }
 
-#coeurplein.fa-heart {
+.coeurplein.fa-heart {
   background: -webkit-linear-gradient(#9356DC, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -264,11 +264,11 @@ section {
   right: 5%;
   opacity: 0;
 }
-#coeurplein.fa-heart:hover {
+.coeurplein.fa-heart:hover {
   animation: apparition 1s;
 }
 
-#coeurvide.fa-heart {
+.coeurvide.fa-heart {
   color: black;
   position: absolute;
   top: 83%;
@@ -848,12 +848,12 @@ h3 {
     margin-left: 24%;
   }
 
-  #coeurplein.fa-heart {
+  .coeurplein.fa-heart {
     top: 83%;
     right: 5%;
   }
 
-  #coeurvide.fa-heart {
+  .coeurvide.fa-heart {
     top: 83%;
     right: 5%;
   }
@@ -945,12 +945,12 @@ h3 {
     margin-left: 24%;
   }
 
-  #coeurplein.fa-heart {
+  .coeurplein.fa-heart {
     top: 88%;
     right: 5%;
   }
 
-  #coeurvide.fa-heart {
+  .coeurvide.fa-heart {
     top: 88%;
     right: 5%;
   }
@@ -1116,23 +1116,23 @@ h3 {
     margin-left: 36%;
   }
 
-  #coeurplein.fa-heart {
+  .coeurplein.fa-heart {
     top: 60%;
     right: 5%;
     opacity: 0;
   }
-  #coeurplein.fa-heart:hover {
+  .coeurplein.fa-heart:hover {
     animation: apparition 1s;
   }
 
-  #coeurvide.fa-heart {
+  .coeurvide.fa-heart {
     color: black;
     position: absolute;
     top: 60%;
     right: 5%;
   }
 
-  #listeresto {
+  .listeresto {
     display: flex;
     background-color: #f2f2f2;
     margin-top: 3%;
@@ -1330,16 +1330,16 @@ h3 {
     margin-left: 36%;
   }
 
-  #coeurplein.fa-heart {
+  .coeurplein.fa-heart {
     top: 63%;
     right: 5%;
     opacity: 0;
   }
-  #coeurplein.fa-heart:hover {
+  .coeurplein.fa-heart:hover {
     animation: apparition 1s;
   }
 
-  #coeurvide.fa-heart {
+  .coeurvide.fa-heart {
     top: 63%;
     right: 5%;
   }
@@ -1556,16 +1556,16 @@ h3 {
     margin-left: 36%;
   }
 
-  #coeurplein.fa-heart {
+  .coeurplein.fa-heart {
     top: 67%;
     right: 5%;
     opacity: 0;
   }
-  #coeurplein.fa-heart:hover {
+  .coeurplein.fa-heart:hover {
     animation: apparition 1s;
   }
 
-  #coeurvide.fa-heart {
+  .coeurvide.fa-heart {
     top: 67%;
     right: 5%;
   }
@@ -1863,16 +1863,16 @@ h3 {
     margin-left: 36%;
   }
 
-  #coeurplein.fa-heart {
+  .coeurplein.fa-heart {
     top: 72%;
     right: 5%;
     opacity: 0;
   }
-  #coeurplein.fa-heart:hover {
+  .coeurplein.fa-heart:hover {
     animation: apparition 1s;
   }
 
-  #coeurvide.fa-heart {
+  .coeurvide.fa-heart {
     top: 72%;
     right: 5%;
   }
@@ -2169,16 +2169,16 @@ h3 {
     margin-left: 36%;
   }
 
-  #coeurplein.fa-heart {
+  .coeurplein.fa-heart {
     top: 72%;
     right: 5%;
     opacity: 0;
   }
-  #coeurplein.fa-heart:hover {
+  .coeurplein.fa-heart:hover {
     animation: apparition 1s;
   }
 
-  #coeurvide.fa-heart {
+  .coeurvide.fa-heart {
     top: 72%;
     right: 5%;
   }
@@ -2468,16 +2468,16 @@ h3 {
     margin-left: 36%;
   }
 
-  #coeurplein.fa-heart {
+  .coeurplein.fa-heart {
     top: 73%;
     right: 5%;
     opacity: 0;
   }
-  #coeurplein.fa-heart:hover {
+  .coeurplein.fa-heart:hover {
     animation: apparition 1s;
   }
 
-  #coeurvide.fa-heart {
+  .coeurvide.fa-heart {
     top: 73%;
     right: 5%;
   }
