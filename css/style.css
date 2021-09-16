@@ -336,7 +336,7 @@ footer {
   margin-bottom: 0px;
 }
 
-.ohmyfoodnégatif {
+.ohmyfoodnegatif {
   background-color: #535353;
   width: auto;
   height: 30px;
@@ -576,7 +576,7 @@ h3 {
   animation-fill-mode: forwards;
 }
 
-.entrées {
+.entrees {
   opacity: 0;
   animation-duration: 2s;
   animation-delay: 0.5s;
@@ -1169,7 +1169,7 @@ h3 {
     top: 48%;
   }
 
-  #délice.lienresto {
+  #delice.lienresto {
     position: absolute;
     top: 48%;
     right: 7%;
@@ -1387,7 +1387,7 @@ h3 {
     width: auto;
   }
 
-  #délice.lienresto {
+  #delice.lienresto {
     position: absolute;
     top: 48%;
     right: 7%;
@@ -1615,7 +1615,7 @@ h3 {
     width: auto;
   }
 
-  #délice.lienresto {
+  #delice.lienresto {
     position: absolute;
     top: 46%;
     right: 11%;
@@ -1683,13 +1683,13 @@ h3 {
     right: 30%;
   }
 
-  .menu-écran {
+  .menu-ecran {
     flex-direction: row;
     display: flex;
     justify-content: center;
   }
 
-  .entrées {
+  .entrees {
     opacity: 0;
     animation-duration: 2s;
     animation-delay: 0.5s;
@@ -1922,7 +1922,7 @@ h3 {
     width: auto;
   }
 
-  #délice.lienresto {
+  #delice.lienresto {
     position: absolute;
     top: 50%;
     right: 9%;
@@ -1990,13 +1990,13 @@ h3 {
     right: 30%;
   }
 
-  .menu-écran {
+  .menu-ecran {
     flex-direction: row;
     display: flex;
     justify-content: center;
   }
 
-  .entrées {
+  .entrees {
     opacity: 0;
     animation-duration: 2s;
     animation-delay: 0.5s;
@@ -2222,7 +2222,7 @@ h3 {
     left: 11%;
   }
 
-  #délice.lienresto {
+  #delice.lienresto {
     position: absolute;
     top: 50%;
     right: 15%;
@@ -2288,13 +2288,13 @@ h3 {
     right: 30%;
   }
 
-  .menu-écran {
+  .menu-ecran {
     flex-direction: row;
     display: flex;
     justify-content: center;
   }
 
-  .entrées {
+  .entrees {
     opacity: 0;
     animation-duration: 2s;
     animation-delay: 0.5s;
@@ -2521,7 +2521,7 @@ h3 {
     left: 14%;
   }
 
-  #délice.lienresto {
+  #delice.lienresto {
     position: absolute;
     top: 50%;
     right: 18%;
@@ -2599,13 +2599,13 @@ h3 {
     right: 30%;
   }
 
-  .menu-écran {
+  .menu-ecran {
     flex-direction: row;
     display: flex;
     justify-content: center;
   }
 
-  .entrées {
+  .entrees {
     opacity: 0;
     animation-duration: 2s;
     animation-delay: 0.5s;
