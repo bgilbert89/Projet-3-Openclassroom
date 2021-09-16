@@ -287,7 +287,7 @@ section {
   position: relative;
 }
 
-legend {
+.legend {
   position: absolute;
   padding-left: 2%;
   padding-top: 2%;
@@ -1175,7 +1175,7 @@ h3 {
     right: 7%;
   }
 
-  legend {
+  .legend {
     top: 8%;
     right: 5%;
   }
@@ -1395,7 +1395,7 @@ h3 {
     width: auto;
   }
 
-  legend {
+  .legend {
     top: 8%;
     right: 5%;
   }
@@ -1623,7 +1623,7 @@ h3 {
     width: auto;
   }
 
-  legend {
+  .legend {
     top: 8%;
     right: 5%;
   }
@@ -1930,7 +1930,7 @@ h3 {
     width: auto;
   }
 
-  legend {
+  .legend {
     top: 8%;
     right: 5%;
   }
@@ -2228,7 +2228,7 @@ h3 {
     right: 15%;
   }
 
-  legend {
+  .legend {
     top: 8%;
     right: 5%;
   }
@@ -2527,7 +2527,7 @@ h3 {
     right: 18%;
   }
 
-  legend {
+  .legend {
     position: absolute;
     padding-left: 2%;
     padding-top: 2%;
