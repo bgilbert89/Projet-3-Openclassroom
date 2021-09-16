@@ -139,8 +139,10 @@ body .loader{
 					border-radius: 25px;
 					height: 3em;
 					width: 14em;
-					display: inline-block;
+					display: inline-flex;
 					border: none;
+					justify-content: center;
+					margin: 0;
 
 				}
 
