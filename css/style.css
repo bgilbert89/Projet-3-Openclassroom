@@ -801,7 +801,7 @@ h3 {
   padding-right: 0.5em;
 }
 
-@media (min-width: 410 px) {
+@media (min-width: 410px) {
   body .loader {
     padding-top: 75%;
   }
