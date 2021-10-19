@@ -142,6 +142,7 @@ body .loader{
 					display: inline-flex;
 					border: none;
 					justify-content: center;
+					&:hover{box-shadow: 0px 4px  10px black; filter: brightness(1.10);}
 
 				}
 
@@ -307,19 +308,19 @@ right: 5%;}
 
 	footer {
 			color: white;
-			background-color: #535353;
+			background-color: #353535;
 			padding-left: 1em;
 			margin-bottom: 0px;
 
 			}
 
-		.ohmyfoodnegatif{background-color: #535353;
+		.ohmyfoodnegatif{background-color: #353535;
 			width: auto;
 			height: 30px;
 			margin-top:5%;
 		}
 		.fa-utensils{padding-right: 0.5em;}
-		.fa-hands-helping{padding-right: 0.5}
+		.fa-hands-helping{padding-right: 0.5em}
 		a{text-decoration: none;
 		color: white;}
 
