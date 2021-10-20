@@ -574,9 +574,6 @@ h2 {
 h3 {
   font-weight: bold;
   width: 80%;
-  animation: retourlargeur 1s;
-  animation: retourslide 1s;
-  animation-fill-mode: forwards;
 }
 
 .child2 p {
