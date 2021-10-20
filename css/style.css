@@ -142,7 +142,12 @@ nav {
   padding-bottom: 10%;
 }
 
-h2 {
+.h1index {
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.h2index {
   font-weight: bold;
 }
 
