@@ -581,6 +581,7 @@ h2 {
 
 h3 {
   font-weight: bold;
+  margin-bottom: 2%;
   width: 80%;
   animation: retourlargeur 1s;
 }
@@ -589,6 +590,7 @@ h3 {
   width: 70%;
   animation: retourlargeur 1s;
   animation-fill-mode: forwards;
+  margin-top: 2%;
 }
 
 .entrees {
@@ -670,14 +672,14 @@ h3 {
 .check.fa-check {
   margin-left: 1em;
   border-radius: 25px;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   color: #99E2D0;
   background-color: white;
   line-height: 1.5em;
   text-align: center;
   position: absolute;
-  top: 30%;
+  top: 16%;
   animation: retourrotation 1s;
   animation-fill-mode: forwards;
 }
@@ -685,7 +687,7 @@ h3 {
 .price {
   position: absolute;
   right: 5%;
-  top: 40%;
+  top: 55%;
   animation: retourslide 1s;
   animation-fill-mode: forwards;
 }
@@ -1066,7 +1068,6 @@ h3 {
   }
 
   h2 {
-    font-weight: bold;
     text-align: center;
     padding: 0;
   }
@@ -1285,7 +1286,6 @@ h3 {
   }
 
   h2 {
-    font-weight: bold;
     text-align: center;
     padding: 0;
   }
@@ -1505,7 +1505,6 @@ h3 {
   }
 
   h2 {
-    font-weight: bold;
     text-align: center;
     padding: 0;
   }
@@ -1812,7 +1811,6 @@ h3 {
   }
 
   h2 {
-    font-weight: bold;
     text-align: center;
     padding: 0;
   }
@@ -2119,7 +2117,6 @@ h3 {
   }
 
   h2 {
-    font-weight: bold;
     text-align: center;
     padding: 0;
   }
@@ -2417,7 +2414,6 @@ h3 {
   }
 
   h2 {
-    font-weight: bold;
     text-align: center;
     padding: 0;
   }
