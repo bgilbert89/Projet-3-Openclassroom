@@ -459,7 +459,7 @@ a {
     width: 45%;
   }
   100% {
-    width: 100%;
+    width: 80%;
     display: inline;
   }
 }
@@ -584,6 +584,9 @@ h3 {
   margin-bottom: 2%;
   width: 80%;
   animation: retourlargeur 1s;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .child2 p {
@@ -591,6 +594,9 @@ h3 {
   animation: retourlargeur 1s;
   animation-fill-mode: forwards;
   margin-top: 2%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .entrees {

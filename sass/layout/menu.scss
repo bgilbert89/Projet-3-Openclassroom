@@ -1,210 +1,277 @@
 @keyframes apparition {
-    0%  {opacity:0;}
-    100% {opacity:1;}
- }
-@-moz-keyframes apparition  {
-    0%  {opacity:0;}
-    100% {opacity:1;}
- }
- @-webkit-keyframes apparition  {
-    0%  {opacity:0;}
-    100% {opacity:1;}
- }
- @-o-keyframes apparition  {
-    0%  {opacity:0;}
-    100% {opacity:1;}
- }
- @-webkit-keyframes loading-opacity { 
-    0%{opacity: 1;}
-    100%{opacity: 0;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes apparition {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes apparition {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes apparition {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes loading-opacity {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes like {
-    0%  {opacity:0;}
-    100% {opacity:1;}
- }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 @-moz-keyframes like {
-    0%  {opacity:0;}
-    100% {opacity:1;}
- }
- @-webkit-keyframes like  {
-    0%  {opacity:0;}
-    100% {opacity:1;}
- }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes like {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
- @keyframes slide{
-     from{transform: translateX(0em);}
-     to{transform: translateX(-7em);}
- }
+@keyframes slide {
+    from {
+        transform: translateX(0em);
+    }
+    to {
+        transform: translateX(-7em);
+    }
+}
 
- @keyframes rotation {
-     from{transform: rotate(0deg);}
-     to{transform: rotate(360deg);}
-    
- }
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
- @keyframes largeur {   
-     0%{width: 100%;}    
-     100%{width: 45%;
-       }
-
- }
- @keyframes retourlargeur {
-    0%{width: 45%;}    
-    100%{width: 100%; display: inline;
-      }
-     
- }
-@keyframes retourrotation{
-    from{transform: rotate(360deg);}
-to{transform: rotate(0deg);}
+@keyframes largeur {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 45%;
+    }
+}
+@keyframes retourlargeur {
+    0% {
+        width: 45%;
+    }
+    100% {
+        width: 80%;
+        display: inline;
+    }
+}
+@keyframes retourrotation {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes retourslide {
-    from{transform: translateX(-7em);display: inline;}
-     to{transform: translateX(0em);display: inline;}
-    
+    from {
+        transform: translateX(-7em);
+        display: inline;
+    }
+    to {
+        transform: translateX(0em);
+        display: inline;
+    }
 }
 
- .ohmyfood-secondary {
+.ohmyfood-secondary {
     display: flex;
     flex-direction: row;
-    justify-content: center ;
+    justify-content: center;
     height: 4em;
-    
-    
-    }
-    .retour{
-   position: absolute;
-   left: 5%;
-   top: 3%;
-    }
-    .fa-arrow-left{ color: black;
+}
+.retour {
+    position: absolute;
+    left: 5%;
+    top: 3%;
+}
+.fa-arrow-left {
+    color: black;
     font-size: 30px !important;
-    }
-    .logo-secondary {	
-        position: relative;    
-            padding-top: 6%;
-            width: auto;
-            height: 40%;
-           
-    
-    }		
-    
-    
-    main{
+}
+.logo-secondary {
+    position: relative;
+    padding-top: 6%;
+    width: auto;
+    height: 40%;
+}
+
+main {
     background-color: #f2f2f2;
-    
-    }
-    
-    
-    
-    
-    .child1{ position: relative;
+}
+
+.child1 {
+    position: relative;
     z-index: 1;
-    }
-    
-    .child2{position: relative;
+}
+
+.child2 {
+    position: relative;
     display: flex;
     flex-direction: column;
     z-index: 2;
     border-radius: 25px 25px 0 0;
     opacity: 1;
-    background-color:#f2f2f2 ;
+    background-color: #f2f2f2;
     margin-top: -10%;
     padding-left: 5%;
     padding-right: 5%;
-    
-    }
-   
+}
 
-    .imgmain{
+.imgmain {
     display: inline-block;
     width: 100%;
     max-width: 100%;
     height: auto;
-    }
-    
-    h1{color:black;
+}
+
+h1 {
+    color: black;
     font-weight: 400;
     background-color: #f2f2f2;
     font-family: Shrikhand;
-        &:hover{color: lightblue;}
-
-
-}
-    
-    .nomresto{display: flex;
-    flex-direction: row;}
-    
-    
-    #heartmenu.fa-heart{
-                        position: absolute;
-                        top: 1em;
-                        right: 1em;
-                        color: black;
-}
-     
-#heartmenutotal.fa-heart{  
-                        position: absolute;
-                        top: 1em;
-                        right: 1em;
-                        background: -webkit-linear-gradient($colorprimary, $colorsecondary);
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                        opacity: 0;
-                            &:hover{animation: apparition 1s;}        
-                    }
-    
-    
-    .underline{text-decoration: underline #a6fdd7;font-weight: 100;}
-    h2{font-weight: 100;}
-    h3{font-weight: bold; margin-bottom: 2%;
-    width: 80%; animation: retourlargeur 1s;}
-    .child2 p{width: 70%; animation: retourlargeur 1s; animation-fill-mode: forwards; margin-top:  2%;
-        }
-    
-    .entrees{ 
-        opacity: 0;
-     animation-duration: 2s;
-     animation-delay: 0.5s;
-     animation-name: apparition;
-     animation-fill-mode: forwards;
- }
- 
- 
- .plats{   
-   opacity: 0;
-     animation-duration: 2s;
-     animation-delay: 1s;
-     animation-name: apparition;
-     animation-fill-mode: forwards;
- }
- 
- .desserts{
-     opacity: 0;
-       animation-duration: 2s;
-     animation-delay: 1.5s;
-     animation-name: apparition;
-     animation-fill-mode: forwards;}
-    
-    .ptn{width: 20em;}
-    .ptn-entrees{
-    position: relative;
-        background-color: white;
-        padding-left: 5%;
-        padding-top: 0%;
-        padding-bottom: 0%;
-        border-radius: 25px;
-        margin-top: 5%;
-        display: block;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    
-       
+    &:hover {
+        color: lightblue;
     }
-    
-    .ptn-plats{ 
+}
+
+.nomresto {
+    display: flex;
+    flex-direction: row;
+}
+
+#heartmenu.fa-heart {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: black;
+}
+
+#heartmenutotal.fa-heart {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background: -webkit-linear-gradient($colorprimary, $colorsecondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    &:hover {
+        animation: apparition 1s;
+    }
+}
+
+.underline {
+    text-decoration: underline #a6fdd7;
+    font-weight: 100;
+}
+h2 {
+    font-weight: 100;
+}
+h3 {
+    font-weight: bold;
+    margin-bottom: 2%;
+    width: 80%;
+    animation: retourlargeur 1s;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.child2 p {
+    width: 70%;
+    animation: retourlargeur 1s;
+    animation-fill-mode: forwards;
+    margin-top: 2%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.entrees {
+    opacity: 0;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-name: apparition;
+    animation-fill-mode: forwards;
+}
+
+.plats {
+    opacity: 0;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-name: apparition;
+    animation-fill-mode: forwards;
+}
+
+.desserts {
+    opacity: 0;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+    animation-name: apparition;
+    animation-fill-mode: forwards;
+}
+
+.ptn {
+    width: 20em;
+}
+.ptn-entrees {
+    position: relative;
+    background-color: white;
+    padding-left: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border-radius: 25px;
+    margin-top: 5%;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ptn-plats {
     position: relative;
     background-color: white;
     padding-left: 5%;
@@ -215,8 +282,8 @@ to{transform: rotate(0deg);}
     margin-top: 5%;
     display: block;
     overflow: hidden;
-    }
-    .ptn-desserts{ 
+}
+.ptn-desserts {
     position: relative;
     background-color: white;
     padding-left: 5%;
@@ -225,77 +292,125 @@ to{transform: rotate(0deg);}
     border-radius: 25px;
     margin-top: 5%;
     overflow: hidden;
-    }
-    
-    .translate-check{
-        background-color: $colortertiary;
-        position:absolute;
-        top: 0;
-        height: 100%;
-        width: 8em;
-        margin-left: 100%;
-        animation: retourslide 1s; animation-fill-mode: forwards;
-        
-                }
+}
 
-    .check.fa-check{
-        margin-left: 1em;
-        border-radius: 25px;
-        height: 40px;
-        width: 40px;
-        color:$colortertiary;
-        background-color: white;
-        line-height: 1.5em; 
-        text-align: center;
-        position: absolute;
-        top: 25%;
-        animation: retourrotation 1s; animation-fill-mode: forwards;
-        font-size: 1.5em;
-      
-    }            
-    
-    .price{ 
+.translate-check {
+    background-color: $colortertiary;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 8em;
+    margin-left: 100%;
+    animation: retourslide 1s;
+    animation-fill-mode: forwards;
+}
+
+.check.fa-check {
+    margin-left: 1em;
+    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+    color: $colortertiary;
+    background-color: white;
+    line-height: 1.5em;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    animation: retourrotation 1s;
+    animation-fill-mode: forwards;
+    font-size: 1.5em;
+}
+
+.price {
     position: absolute;
     right: 5%;
     top: 55%;
-    animation: retourslide 1s; animation-fill-mode: forwards;
+    animation: retourslide 1s;
+    animation-fill-mode: forwards;
+}
+.ptn-entrees:hover .price {
+    animation: slide 1s;
+    animation-fill-mode: forwards;
+}
+.ptn-entrees:hover .translate-check {
+    animation: slide 1s;
+    animation-fill-mode: forwards;
+}
+.ptn-entrees:hover .check {
+    animation: rotation 1s;
+    animation-fill-mode: forwards;
+}
+.ptn-entrees:hover p {
+    animation: largeur 1s;
+    animation-fill-mode: forwards;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.ptn-entrees:hover h3 {
+    animation: largeur 1s;
+    animation-fill-mode: forwards;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
 
-    
-    }
-   .ptn-entrees:hover .price{animation: slide 1s; animation-fill-mode: forwards;}
-   .ptn-entrees:hover .translate-check{animation: slide 1s; animation-fill-mode: forwards;}
-   .ptn-entrees:hover .check{animation: rotation 1s; animation-fill-mode: forwards;}
-   .ptn-entrees:hover p{animation: largeur 1s; animation-fill-mode: forwards; white-space: nowrap;
+.ptn-plats:hover .price {
+    animation: slide 1s;
+    animation-fill-mode: forwards;
+}
+.ptn-plats:hover .translate-check {
+    animation: slide 1s;
+    animation-fill-mode: forwards;
+}
+.ptn-plats:hover .check {
+    animation: rotation 1s;
+    animation-fill-mode: forwards;
+}
+.ptn-plats:hover p {
+    animation: largeur 1s;
+    animation-fill-mode: forwards;
+    white-space: nowrap;
     text-overflow: ellipsis;
-    overflow: hidden;}
-    .ptn-entrees:hover h3{animation: largeur 1s; animation-fill-mode: 
-        forwards; white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;}
- 
-   .ptn-plats:hover .price{animation: slide 1s;  animation-fill-mode: forwards;}
-   .ptn-plats:hover .translate-check{animation: slide 1s;  animation-fill-mode: forwards;}
-   .ptn-plats:hover .check{animation: rotation 1s;  animation-fill-mode: forwards;}
-   .ptn-plats:hover p{animation: largeur 1s; animation-fill-mode: forwards; white-space: nowrap;
+    overflow: hidden;
+}
+.ptn-plats:hover h3 {
+    animation: largeur 1s;
+    animation-fill-mode: forwards;
+    white-space: nowrap;
     text-overflow: ellipsis;
-    overflow: hidden;}
-   .ptn-plats:hover h3{animation: largeur 1s; animation-fill-mode: forwards; white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;}
-    
- 
-   .ptn-desserts:hover .price{animation: slide 1s; animation-fill-mode: forwards;}
-   .ptn-desserts:hover .translate-check{animation: slide 1s; animation-fill-mode: forwards;}
-   .ptn-desserts:hover .check{animation: rotation 1s; animation-fill-mode: forwards; }
-   .ptn-desserts:hover p{animation: largeur 1s; animation-fill-mode: forwards; white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;}
-   .ptn-desserts:hover h3{animation: largeur 1s; animation-fill-mode: forwards; white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;}
+    overflow: hidden;
+}
 
+.ptn-desserts:hover .price {
+    animation: slide 1s;
+    animation-fill-mode: forwards;
+}
+.ptn-desserts:hover .translate-check {
+    animation: slide 1s;
+    animation-fill-mode: forwards;
+}
+.ptn-desserts:hover .check {
+    animation: rotation 1s;
+    animation-fill-mode: forwards;
+}
+.ptn-desserts:hover p {
+    animation: largeur 1s;
+    animation-fill-mode: forwards;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.ptn-desserts:hover h3 {
+    animation: largeur 1s;
+    animation-fill-mode: forwards;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
 
-    .commander{color: white ; 
+.commander {
+    color: white;
     background-color: #d560f8;
     display: block;
     margin-left: auto;
@@ -305,13 +420,19 @@ to{transform: rotate(0deg);}
     border-radius: 25px;
     height: 3em;
     width: 14em;
-    background:linear-gradient(175deg,$colorsecondary,$colorprimary);
-    box-shadow: 0px 4px  10px grey;
+    background: linear-gradient(175deg, $colorsecondary, $colorprimary);
+    box-shadow: 0px 4px 10px grey;
     font-weight: bold;
     border: none;
-    &:hover{box-shadow: 0px 4px  10px black; filter: brightness(1.10);}
+    &:hover {
+        box-shadow: 0px 4px 10px black;
+        filter: brightness(1.1);
+    }
 }
-    
-    
-    .fa-utensils{padding-right: 0.5em;}
-    .fa-hands-helping{padding-right: 0.5em;}
+
+.fa-utensils {
+    padding-right: 0.5em;
+}
+.fa-hands-helping {
+    padding-right: 0.5em;
+}
